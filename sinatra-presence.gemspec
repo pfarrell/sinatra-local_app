@@ -1,15 +1,15 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'sinatra/local_app/version'
+require 'sinatra/presence/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "sinatra-local_app"
-  spec.version       = Sinatra::LocalApp::VERSION
+  spec.name          = "sinatra-presence"
+  spec.version       = Sinatra::Presence::VERSION
   spec.authors       = ["Patrick Farrell"]
   spec.email         = ["mr.pfarrell@gmail.com"]
   spec.summary       = %q{Adds ability to redirect an application to a local ip}
-  spec.homepage      = "https://github.com/pfarrell/sinatra-local_app"
+  spec.homepage      = "https://github.com/pfarrell/sinatra-presence"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")

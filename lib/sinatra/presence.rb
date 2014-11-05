@@ -1,7 +1,7 @@
 require 'sinatra/base'
 
 module Sinatra
-  module LocalApp
+  module Presence
 
     def self.registered(app) 
       app.set :local_authority, '127.0.0.1:9292' # http://en.wikipedia.org/wiki/URI_scheme 

@@ -3,7 +3,7 @@ require 'bundler/setup'
 require 'rspec'
 require 'rack/test'
 
-require File.join(File.dirname(__FILE__), '..', 'lib', 'sinatra', 'local_app')
+require File.join(File.dirname(__FILE__), '..', 'lib', 'sinatra', 'presence')
 require File.join(File.dirname(__FILE__), 'app', 'test_app')
 
 RSpec.configure do |config|

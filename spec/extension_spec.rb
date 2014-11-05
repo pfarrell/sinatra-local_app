@@ -1,6 +1,6 @@
 require 'spec_helper'
 
-describe Sinatra::LocalApp do
+describe Sinatra::Presence do
   it "should initialize with :local_authority set to 127.0.0.1" do
     expect(TestApp.local_authority).to eq('127.0.0.1:9292')
   end

@@ -1,4 +1,4 @@
-# Sinatra::LocalApp
+# Sinatra::Presence
 
 A Sinatra extension that will recognize if your request could be redirected to a local network location.
 
@@ -13,7 +13,7 @@ Why, indeed...
 
 Add this line to your application's Gemfile:
 
-    gem 'sinatra-local_app'
+    gem 'sinatra-presence'
 
 And then execute:
 
@@ -21,7 +21,7 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install sinatra-local_app
+    $ gem install sinatra-presence
 
 ## Usage
 
@@ -29,7 +29,7 @@ Register like a typical Sinatra extension
 
 ## Contributing
 
-1. Fork it ( https://github.com/pfarrell/sinatra-local_app/fork )
+1. Fork it ( https://github.com/pfarrell/presence/fork )
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
