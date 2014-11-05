@@ -1,6 +1,9 @@
 # Sinatra::LocalApp
 
-TODO: Write a gem description
+A Sinatra extension that will recognize if your request could be redirected to a local network location.
+
+Why? Let's say you run applications on your home network... why use the infrastructure of the internet when
+your requests could be serviced locally?  Why, indeed...
 
 ## Installation
 
@@ -18,7 +21,7 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Register like a typical Sinatra extension
 
 ## Contributing
 
