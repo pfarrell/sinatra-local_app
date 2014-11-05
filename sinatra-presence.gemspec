@@ -9,6 +9,8 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Patrick Farrell"]
   spec.email         = ["mr.pfarrell@gmail.com"]
   spec.summary       = %q{Adds ability to redirect an application to a local ip}
+  spec.description   = %q{Sinatra extension for allowing an application to auto-redirect to
+                          to a local ip address when it's possible.}
   spec.homepage      = "https://github.com/pfarrell/sinatra-presence"
   spec.license       = "MIT"
 
@@ -19,7 +21,7 @@ Gem::Specification.new do |spec|
 
   spec.add_runtime_dependency 'sinatra', '~> 1.3'
   spec.add_development_dependency "bundler", "~> 1.6"
-  spec.add_development_dependency "rake"
-  spec.add_development_dependency "rspec"
-  spec.add_development_dependency "rack-test"
+  spec.add_development_dependency "rake", "~> 10.3"
+  spec.add_development_dependency "rspec", "~> 3.1"
+  spec.add_development_dependency "rack-test", "~> 0.6"
 end
