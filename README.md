@@ -2,8 +2,12 @@
 
 A Sinatra extension that will recognize if your request could be redirected to a local network location.
 
-Why? Let's say you run applications on your home network... why use the infrastructure of the internet when
-your requests could be serviced locally?  Why, indeed...
+Why? 
+
+Let's say you run applications on your home network... why use the infrastructure of the internet when
+your requests could be serviced locally?  
+
+Why, indeed...
 
 ## Installation
 
