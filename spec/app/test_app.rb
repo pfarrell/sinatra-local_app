@@ -8,7 +8,7 @@ class TestApp < Sinatra::Base
   #set :show_exceptions, false
 
   get '/' do
-    puts "Hellocal"
+    "Hellocal"
   end
 
 end
