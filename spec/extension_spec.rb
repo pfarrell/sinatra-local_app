@@ -13,4 +13,9 @@ describe Sinatra::Presence do
     get '/local'
     expect(last_response).to be_redirect
   end
+
+  it "should set a cookie" do
+    get '/' 
+    expect(rack_mock_session.cookie_jar["local_url"]).to eq("http://127.0.0.1:9292/")
+  end
 end
