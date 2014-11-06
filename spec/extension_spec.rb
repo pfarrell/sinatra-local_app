@@ -5,6 +5,12 @@ describe Sinatra::Presence do
     expect(TestApp.local_authority).to eq('127.0.0.1:9292')
   end
 
+  # validate rack-test is working
+  it "should respond to '/'" do
+    get '/'
+    expect(last_response.body).to eq("Hellocal")
+  end
+
   it "should respond to '/local'" do
     get '/local'
   end
@@ -18,4 +24,6 @@ describe Sinatra::Presence do
     get '/' 
     expect(rack_mock_session.cookie_jar["local_url"]).to eq("http://127.0.0.1:9292/")
   end
+
 end
+
