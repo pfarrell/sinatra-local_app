@@ -27,6 +27,11 @@ Or install it yourself as:
 
 Register like a typical Sinatra extension
 
+Set a local setting for local_authority in your sinatra app.rb (or config.rb or however you do it).
+Include everything from the scheme to the port that will get replaced.
+
+    set :local_authority, 'http://192.168.0.1:8080'
+
 ## Contributing
 
 1. Fork it ( https://github.com/pfarrell/presence/fork )

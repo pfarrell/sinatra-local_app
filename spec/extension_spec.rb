@@ -2,7 +2,7 @@ require 'spec_helper'
 
 describe Sinatra::Presence do
   it "should initialize with :local_authority set to 127.0.0.1" do
-    expect(TestApp.local_authority).to eq('127.0.0.1:9292')
+    expect(TestApp.local_authority).to eq('http://127.0.0.1:9292')
   end
 
   # validate rack-test is working
