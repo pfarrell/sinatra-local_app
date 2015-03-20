@@ -14,7 +14,7 @@ module Sinatra
       end
 
       app.get '/local' do
-        new_url = request.url.gsub("#{request.host_with_port}", "#{settings.local_authority}").gsub("/local", "") 
+        new_url = request.url.gsub("#{request.scheme}://#{request.host_with_port}", "#{settings.local_authority}").gsub("/local", "") 
         redirect to(new_url)
       end 
     end 
